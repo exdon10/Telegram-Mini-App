@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+nav {
+    background: #262626;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+#resource-count, #user-ranking, #user-league, #remaining-clicks {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ffd700;
+    color: #1c1c1c;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+#boost-button {
+    background-color: #ffa500;
+}
+
+#boost-button:hover {
+    background-color: #ff7f00;
+}
+
+#tap-button {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+#tap-button:active {
+    transform: scale(0.9);
+    filter: brightness(1.2);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwandala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="home">
+        <h1>Welcome to Kwandala</h1>
+        <p>Tap to earn golden Kwandala coins and boost your earnings with various activities!</p>
+    </div>
+
+    <div class="container" id="tasks" style="display: none;">
+        <h1>Tasks</h1>
+        <p>Complete tasks to earn additional rewards!</p>
+    </div>
+
+    <div class="container" id="refer" style="display: none;">
+        <h1>Refer</h1>
+        <p>Invite your friends and earn bonus rewards!</p>
+    </div>
+
+    <div class="container" id="tap" style="display: none;">
+        <h1>kwandala</h1>
+        <div id="resource-count">Kwandala Coins: 0</div>
+        <div id="user-ranking">Ranking: 0</div>
+        <div id="user-league">League: None</div>
+        <div id="remaining-clicks">Remaining Clicks: 50</div>
+        <img id="tap-button" src="coin.png" alt="Tap to Earn" width="250" height="250" 
+          style="width:250px; height:250px;"/>
+          <br>
+          <br>
+    </div>
+
+    <div class="container" id="boost" style="display: none;">
+        <h1>Boost</h1>
+        <p>Activate boosts to increase your earnings!</p>
+        <button id="boost-button">Activate Boost (2x)</button>
+    </div>
+
+    <div class="container" id="board" style="display: none;">
+        <h1>Board</h1>
+        <p>Check out the leaderboard to see top earners!</p>
+    </div>
+
+    <nav>
+        <ul>
+             <li><a href="#home">Home</a></li>
+            <li><a href="#tasks">Tasks</a></li>
+            <li><a href="#refer">Refer</a></li>
+            <li><a href="#tap">Tap (Main)</a></li>
+            <li><a href="#boost">Boost</a></li>
+             <li><a href="#board">Board</a></li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
